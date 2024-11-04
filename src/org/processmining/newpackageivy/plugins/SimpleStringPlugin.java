@@ -6,7 +6,7 @@ import org.processmining.framework.plugin.annotations.Plugin;
 import org.processmining.framework.plugin.annotations.PluginVariant;
 
 @Plugin(
-        name = "Simple String from Aziz",
+        name = "Simple String from Aziz 1.0",
         parameterLabels = {},
         returnLabels = { "Output" },
         returnTypes = { String.class }
@@ -17,6 +17,6 @@ public class SimpleStringPlugin {
     @UITopiaVariant(affiliation = "", author = "Aziz", email = "azizhammi0@gmail.com")
     @PluginVariant(variantLabel = "Get Simple String", requiredParameterLabels = {})
     public String getSimpleString(UIPluginContext context) {
-        return "it should be working";
+        return "nice";
     }
 }
